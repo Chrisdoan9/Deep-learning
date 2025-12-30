@@ -92,9 +92,9 @@ class SimpleTransformer(nn.Module):
 if __name__ == "__main__":
     torch.manual_seed(0)
 
-    vocab_size = 1000
-    batch_size = 4
-    seq_len = 10
+    vocab_size = 1000 # how many tokens are in one sample
+    batch_size = 4 # how many samples the model processes together in one step
+    seq_len = 10 # how many tokens are in one sample
     num_classes = 2
 
     model = SimpleTransformer(
