@@ -1,5 +1,6 @@
 ## Project Summary
 An autoencoder is a self-supervised neural network that learns a compact representation of data by reconstructing the input from itself.  
+Use an autoencoder when you have large, high-dimensional, unlabeled, non-random data.  
 
 This project explores representation learning for single-cell RNA-seq data using a denoising autoencoder. Using PBMC data, I trained a neural network to compress gene expression profiles into a low-dimensional latent space and evaluated whether this latent representation preserves biologically meaningful cell-type information.
 
